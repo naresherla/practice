@@ -1,0 +1,13 @@
+name ="Afroz"
+
+print("hii",name)     #hii Afroz
+print("hiii {}".format(name))   #hiii Afroz
+print(f'hiii {name}')       #hiii Afroz
+
+name2 ="naresh"
+
+print("hiii",name,"hello",name2)    # hiii Afroz hello naresh
+print("hii {} , hello {}".format(name,name2))  # hii Afroz , hello naresh
+print(f"hii {name}, hello {name2}")      # hii Afroz, hello naresh
+
+print("hii {b}, hello {a}".format(a=name,b=name2))     # hii naresh, hello Afroz
